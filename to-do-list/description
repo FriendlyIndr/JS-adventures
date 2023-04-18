@@ -1,0 +1,12 @@
+Hi.
+
+I made this simple to-do list program by breaking down the problem of building a to-do list app that would allow users to add, edit and delete tasks, into smaller problems.
+I decided to use an ordered list to display the tasks. 
+I used Javascript functions to enable the add, edit and delete buttons.
+
+Certain links I found useful while making this mini project:
+1) https://stackoverflow.com/questions/17773938/add-a-list-item-through-javascript
+2) https://stackoverflow.com/questions/15968911/how-to-clear-text-area-with-a-button-in-html-using-javascript
+3) https://www.educative.io/answers/how-to-add-an-id-to-element-in-javascript
+4) https://www.w3schools.com/jsref/prop_element_childelementcount.asp
+5) https://www.w3schools.com/jsref/met_node_removechild.asp
