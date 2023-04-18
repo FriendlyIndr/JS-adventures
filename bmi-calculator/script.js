@@ -14,7 +14,7 @@ function updatebmi() {
     if(bmi > 0 && bmi <= 16) {
         comment = "Severe thinness";
     } else if(bmi > 16 && bmi <= 17) {
-        comment = "Moderate thinnes";
+        comment = "Moderate thinness";
     } else if(bmi > 17 && bmi <= 18.5) {
         comment = "Mild thinness";
     } else if(bmi > 18.5 && bmi <= 25) {                               //categorizing the bmi value
