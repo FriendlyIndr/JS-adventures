@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Let's test your knowledge!</h1>
+    <input type="button" style="height: 30px; width: auto;" onclick="begin(); display();" value="Begin"/>
+    <div id="quiz" style="display: none;">
+      <h4 id="question"></h4><br>
+      <h5 class="inline-el">A &#41 </h5></h5><h5 id="optionA" class="inline-el"></h5><br>
+      <h5 class="inline-el">B &#41 </h5><h5 id="optionB" class="inline-el"></h5><br>
+      <h5 class="inline-el">C &#41 </h5><h5 id="optionC" class="inline-el"></h5><br>
+      <h5 class="inline-el">D &#41 </h5><h5 id="optionD" class="inline-el"></h5><br>
+      <input type="text" id="choice" placeholder="Enter answer" style="display: none;" />
+      <input type="button" id="submit" onclick="check(); result()" value="Submit" style="display: none;" />
+      <p id="result" style="display: none;"></p>
+      <div id="correctd" style="display: none;">
+      <span>Correct Answer: </span><span id="correct" ></span>
+      </div>
+      <p id="note" style="display: none;"></p>
+      <input type="button" id="next" style="display: none;" value="Next" onclick="next(); display();" />
+
+    </div>  
+    <div id="end" style="display: none; text-align: center;">
+      <h1>The quiz is over!</h1>
+      <h2 class="inline-el">Your score: </h2><h2 class="inline-el" id="score"></h2>
+      <h2>Thank you for your time. :D</h2>
+    </div>  
+</body> 
+</html>
