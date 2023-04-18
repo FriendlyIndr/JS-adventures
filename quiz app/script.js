@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "India’s only active volcano is located at which among the following places?",
+        question: "India's only active volcano is located at which among the following places?",
         options: ["Car Nicobar","Barren island","Maya Bunder","Lakshdweep"],
         answer: "Barren island",
         note: "The Barren Island is located in the Union Territory of Andaman and Nicobar Islands and is the only confirmed active volcano in South Asia.",
