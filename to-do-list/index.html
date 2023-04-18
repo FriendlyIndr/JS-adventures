@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <textarea id="content" placeholder="Enter content"></textarea>
+    <input type="button" id="add" onclick="addtask()" value="Add task"/><br><br>
+    <input type="number" id="index" placeholder="Enter index"/>
+    <input type="button" id="delete" onclick="deletetask()" value="Delete task"/>
+    <input type="button" id="edit" onclick="edittask()" value="Edit task"/>
+    <hr>
+    <div style="text-align: center;">
+      <ol id="todolist" style="display: inline-block; text-align: left; font-size: large;"></ol>
+    </div>  
+</body>
+</html>
