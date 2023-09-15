@@ -110,23 +110,6 @@ function graph(){
                     min: -10,
                     max: 10
                 }
-            },
-            plugins: {
-                zoom: {
-                    drag: {
-                        enabled: true
-                    },
-                    pan: {
-                        enabled: true,
-                        mode: 'x', // Enable only X-axis panning
-                    },
-                    drag: {
-                        enabled: true // Enable zooming by dragging the chart
-                    },
-                    pinch: {
-                        enabled: true // Enable zooming with pinch gestures on touch devices
-                    }
-                }
             }
         }
     });
