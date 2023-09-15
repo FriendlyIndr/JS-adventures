@@ -81,11 +81,11 @@ function graph(){
         data: {
             labels: x_axis_labels,
             datasets: [{
-                label: 'Resultant Signal', // Label for the dataset
-                data: x_axis, // Y-axis data points
-                borderColor: 'blue', // Line color
-                borderWidth: 2, // Line width
-                fill: false // Fill the area under the line (false for line chart)
+                label: 'Resultant Signal', 
+                data: x_axis, 
+                borderColor: 'blue', 
+                borderWidth: 2, 
+                fill: false 
             }]
         },
         options: {
